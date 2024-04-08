@@ -1,0 +1,36 @@
+Homebrewをインストール（パッケージマネージャー）
+
+homebrew --version　でhomebrewがインストールされてるか確認できる
+
+Which brew でインストールパスを表示する。しインストールされていれば、パスが表示されます。インストールされていない場合は、何も表示されません。　
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+brew　でコマンドがこれだけありますよ！と確認できる
+
+Brew install pyenv でpyenvをインストールできる
+
+Pyenv -v　でpyenvがインストールされてるか確認
+
+
+echo $SHELL
+
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+~/.zshrc
+
+pyenv install --list
+
+pyenv install 3.12.2(最新のversion)　色々なバージョンをダウンロードできる
+
+pyenv global 現在のバージョンを確認できる
+
+データ分析、人工知能の分野に手を広げるならanacondaをダウンロードする
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ 
